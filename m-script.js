@@ -109,7 +109,7 @@ document.getElementById("omikujiButton").addEventListener("click", function () {
 });
 
 function postToX(finalItem) {
-  const postText = `#麻雀おみくじ の結果は\n 「${finalItem.title}」でした！\n\n麻雀おみくじはこちら\nhttps://自分のURL\n\n`;
+  const postText = `#麻雀おみくじ の結果は\n 「${finalItem.title}」でした！\n\n麻雀おみくじはこちら\nhttps://bearl27.github.io/omikuji/\n\n`;
 
   // 改行を含むテキストをURLエンコード
   const encodedText = encodeURIComponent(postText);
